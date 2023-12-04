@@ -1,0 +1,52 @@
+/* Lab. Activity #1:
+Operations Performed on Binary Search Trees
+• Determine whether the binary search tree is empty
+• Search the binary search tree for a particular item
+• Insert an item in the binary search tree
+• Delete an item from the binary search tree
+• Find the height of the binary search tree
+• Find the number of nodes in the binary search tree
+• Find the number of leaves in the binary search tree
+• Traverse the binary search tree */
+
+import java.util.Scanner;
+
+class Node
+{
+   Node left, right;
+   int data;
+      
+   //Constructor
+   public Node(int n)
+   {
+      left = null;
+      right = null;
+      data = n;
+   }
+   
+   //Set left node
+   public void setleft(Node n)
+   {
+      left = n;
+   }
+   
+   //Set right node
+   public void setRight(Node n)
+   {
+      right = n;
+   }
+   
+   //get left node
+   public Node getleft()
+   {
+      return left;
+   }
+   
+   //get right node
+   public Node get right()
+   {
+      return right;
+   }
+   
+   
+}
